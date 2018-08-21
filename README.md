@@ -1,4 +1,4 @@
 # JuliaFEMDocumentation
 Documentation for JuliaFEM
 
-ASDF
+JuliaFEM usage examples are gathered in examples directory.
