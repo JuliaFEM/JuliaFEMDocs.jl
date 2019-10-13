@@ -1,0 +1,8 @@
+name = "JuliaFEMDocs"
+uuid = "5a3b7eba-0c52-40f9-b2b4-1a42edec8c8c"
+authors = ["Jukka Aho <ahojukka5@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
