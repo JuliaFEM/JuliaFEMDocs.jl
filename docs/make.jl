@@ -11,7 +11,7 @@ root = abspath(pathof(JuliaFEMDocs), "..", "..", "docs", "src")
 
 using JuliaFEM
 JuliaFEMDocs.copydocs(JuliaFEM)
-cp(joinpath(root, "packages", "JuliaFEM", "README.md"), joinpath(root, "index.md"))
+cp(joinpath(root, "packages", "JuliaFEM", "README.md"), joinpath(root, "index.md"); force=true)
 push!(PAGES, "Home" => "index.md")
 
 # Add packages
