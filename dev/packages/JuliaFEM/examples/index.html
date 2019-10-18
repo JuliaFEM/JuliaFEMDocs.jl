@@ -35,11 +35,11 @@ bc.elements = [bc_el_1, bc_el_2]</code></pre><pre><code class="language-none">2-
  Element{Seg2}(-1, [4, 1], FEMBase.Point{IntegrationPoint}[], Dict{String,AbstractField}(&quot;displacement 1&quot; =&gt; DCTI{Float64}(0.0)), Seg2())</code></pre><p>Last thing is to create a solver, push problem to solver and solve:</p><pre><code class="language-julia">solver = Solver(Linear, body, traction, bc)
 solver()</code></pre><pre><code class="language-none">[ Info: Creating a new analysis of type Linear with name `LinearSolver`.
 ┌ Warning: analysis(time) is deprecated. Instead, use run!(analysis)
-└ @ JuliaFEM ~/.julia/packages/JuliaFEM/or1RT/src/solvers.jl:678
+└ @ JuliaFEM ~/.julia/packages/JuliaFEM/DbhTT/src/solvers.jl:678
 [ Info: Running linear quasistatic analysis `LinearSolver` at time 0.0.
 [ Info: Assembling 3 problems.
 [ Info: Solving linear system.
-[ Info: Solved linear system in 1.36 seconds using solver 1. Solution norms (||u||, ||la||): (1.49071198499986, 203.64675298172568).
+[ Info: Solved linear system in 1.14 seconds using solver 1. Solution norms (||u||, ||la||): (1.49071198499986, 203.64675298172568).
 [ Info:
 [ Info: Postprocessing 3 problems.
 [ Info: No result writers are attached to analysis, not writing output.
